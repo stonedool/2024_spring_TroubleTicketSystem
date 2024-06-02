@@ -1,0 +1,81 @@
+<mxfile host="Electron" modified="2024-06-02T06:43:44.943Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.4.13 Chrome/124.0.6367.207 Electron/30.0.6 Safari/537.36" etag="s5DtefOmdRO4LMxDAySY" version="24.4.13" type="device">
+  <diagram name="Page-1" id="2YBvvXClWsGukQMizWep">
+    <mxGraphModel dx="712" dy="820" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="u7O1afyLNcFefs3NJfhS-1" value="" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlActor;" parent="1" vertex="1">
+          <mxGeometry x="40" y="40" width="20" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="u7O1afyLNcFefs3NJfhS-2" value="Main UI" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="1" vertex="1">
+          <mxGeometry x="120" y="40" width="100" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="u7O1afyLNcFefs3NJfhS-4" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="u7O1afyLNcFefs3NJfhS-2" vertex="1">
+          <mxGeometry x="45" y="100" width="10" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="u7O1afyLNcFefs3NJfhS-13" value="refresh" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" parent="u7O1afyLNcFefs3NJfhS-2" source="u7O1afyLNcFefs3NJfhS-4" target="u7O1afyLNcFefs3NJfhS-4" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="60" y="250" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="95" y="250" />
+              <mxPoint x="95" y="280" />
+            </Array>
+            <mxPoint x="60" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="u7O1afyLNcFefs3NJfhS-3" value="Press TextBox" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" parent="1" target="u7O1afyLNcFefs3NJfhS-4" edge="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="50" y="151" as="sourcePoint" />
+            <mxPoint x="140" y="151" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="u7O1afyLNcFefs3NJfhS-5" value="Edit Issue UI" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="1" vertex="1">
+          <mxGeometry x="240" y="140" width="100" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="u7O1afyLNcFefs3NJfhS-7" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="u7O1afyLNcFefs3NJfhS-5" vertex="1">
+          <mxGeometry x="45" y="60" width="10" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="u7O1afyLNcFefs3NJfhS-11" value="re-save Data" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" parent="u7O1afyLNcFefs3NJfhS-5" source="u7O1afyLNcFefs3NJfhS-7" target="u7O1afyLNcFefs3NJfhS-7" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="60" y="120" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="90" y="120" />
+              <mxPoint x="90" y="150" />
+            </Array>
+            <mxPoint x="65" y="150" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="u7O1afyLNcFefs3NJfhS-6" value="open UI" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" parent="1" source="u7O1afyLNcFefs3NJfhS-4" edge="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="180" y="160" as="sourcePoint" />
+            <mxPoint x="240" y="160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="u7O1afyLNcFefs3NJfhS-8" value="Edit Some Values" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" parent="1" target="u7O1afyLNcFefs3NJfhS-7" edge="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="50" y="220" as="sourcePoint" />
+            <mxPoint x="165" y="220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="u7O1afyLNcFefs3NJfhS-9" value="Press Save Button" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="50.5" y="250" as="sourcePoint" />
+            <mxPoint x="285.5" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="u7O1afyLNcFefs3NJfhS-12" value="Press &#39;R&#39; Button" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="50.023809523809405" y="280.0000000000001" as="sourcePoint" />
+            <mxPoint x="165" y="280.0000000000001" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="u7O1afyLNcFefs3NJfhS-14" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="280" y="300" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="5mSuuk3osxMk9YpCUma9-1" value="Do SomeThing" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="340" width="350" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

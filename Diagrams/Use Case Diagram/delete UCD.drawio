@@ -1,0 +1,31 @@
+<mxfile host="Electron" modified="2024-06-01T11:08:04.585Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.4.13 Chrome/124.0.6367.207 Electron/30.0.6 Safari/537.36" etag="SBAEJLQZ2xvj71yY2T9h" version="24.4.13" type="device">
+  <diagram name="페이지-1" id="OMFwIMUGjbaWBI-Hc2kO">
+    <mxGraphModel dx="712" dy="827" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="yvwCRGg2z9xxAc4UsZOk-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="yvwCRGg2z9xxAc4UsZOk-1" target="yvwCRGg2z9xxAc4UsZOk-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yvwCRGg2z9xxAc4UsZOk-1" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="80" y="120" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yvwCRGg2z9xxAc4UsZOk-39" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="yvwCRGg2z9xxAc4UsZOk-2" target="yvwCRGg2z9xxAc4UsZOk-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yvwCRGg2z9xxAc4UsZOk-2" value="Open&lt;br&gt;directory&lt;div&gt;&quot;Tickets/&quot;&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="180" y="120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yvwCRGg2z9xxAc4UsZOk-41" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="yvwCRGg2z9xxAc4UsZOk-38" target="yvwCRGg2z9xxAc4UsZOk-40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yvwCRGg2z9xxAc4UsZOk-38" value="Find unwanted&lt;br&gt;Tickets" style="ellipse;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="380" y="130" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="yvwCRGg2z9xxAc4UsZOk-40" value="Removes&lt;br&gt;manually" style="ellipse;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="560" y="130" width="100" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
